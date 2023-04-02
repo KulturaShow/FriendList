@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #1d1d1d;
+  color: #fff;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.container {
+  padding: 15px 130px;
+}
+
+header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #2c2c2c;
+  border-bottom: 2px solid #000;
+}
+header span {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fdfdfe;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3, 0px 0px 20px #b393d3;
+}
+header nav {
+  display: flex;
+  gap: 15px;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header form {
+  display: flex;
+  gap: 10px;
+}
+header input {
+  border: 1px solid silver;
+  border-radius: 5px;
+  outline: 0;
+  background: transparent;
+  color: #fff;
+  padding: 5px 10px;
+  outline: none;
+}
+header input:focus {
+  border-color: #dd5353;
+}
+header form button {
+  background-color: #dd5353;
+  border: 0;
+  color: #661f1f;
+  padding: 6px 10px;
+  border-radius: 2px;
+  transition: transform 500ms ease;
+}
+header button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2c2c2c;
+  border-top: 2px solid #000;
+  padding: 20px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+footer a:last-child {
+  margin-left: 20px;
+  color: #fff;
+}
+footer .mail {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #4676D7;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+main {
+  display: grid;
+  margin: 0 auto;
+  max-width: 80vh;
+  align-items: center;
+  grid-template-areas: h1;
+  grid-template-areas-padding-top: 30px;
+}
+main p {
+  width: 300px;
+  height: 100px;
+  border: 1px solid #000;
+  background-color: #dd5353;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.home_grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 20px;
+  justify-items: center;
+}
+
+.home_questions {
+  width: 300px;
+  padding: 10px;
+}
+.home_questions h2 {
+  color: #fcfcfc;
+}/*# sourceMappingURL=main.css.map */
